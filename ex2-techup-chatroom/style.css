@@ -5,9 +5,13 @@
   font-size: 15px;
 }
 
+:root {
+  --bgmain: rgb(148, 147, 147);
+}
+
 .header {
   height: 70px;
-  background-color: rgb(148, 147, 147);
+  background-color: var(--bgmain);
   display: flex;
   align-items: center;
   box-shadow: 0px 1px 11px -5px rgba(0, 0, 0, 1);
@@ -150,4 +154,48 @@ body:has(.chat-right-fail:hover) .ab {
 body:has(.ab:hover) .chat-right-fail {
   position: relative;
   top: -2px;
+}
+
+.input-chat {
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0px;
+  gap: 10px;
+  margin: 30px 0;
+  background-color: var(--bgmain);
+  padding: 10px;
+}
+
+.emoticon {
+  display: flex;
+  gap: 10px;
+}
+
+.emoticon p {
+  background-color: rgb(215, 215, 215);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.emoticon p:hover {
+  background-color: rgb(215, 215, 215);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px rgb(119, 255, 225);
+}
+
+.input-text {
+  width: 500px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.button-send {
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.button-send:hover {
+  cursor: pointer;
 }

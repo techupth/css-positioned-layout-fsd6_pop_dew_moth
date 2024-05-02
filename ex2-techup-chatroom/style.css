@@ -87,6 +87,23 @@
   top: -2px;
 }
 
+.ad {
+  top: 72px;
+  right: 10px;
+  position: absolute;
+  border: 0px solid;
+  display: block;
+  width: 70px;
+  height: 50px;
+  background-color: transparent;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: -21px 9px 0px 8px rgb(138, 255, 169);
+  rotate: -40deg;
+  scale: 0.4;
+  z-index: -1;
+}
+
 .ab {
   background-color: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 1px rgb(82, 1, 1);

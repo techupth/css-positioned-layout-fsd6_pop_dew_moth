@@ -1,1 +1,70 @@
 /* Start coding here */
+* {
+  font-family: "sarabun", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-section {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  width: 100vw;
+  height: 5vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.chat-right,
+.chat-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-right {
+  align-items: flex-end;
+}
+
+.chat-right .chat {
+  background-color: green;
+}
+
+.chat-right .fail {
+    background-color: silver
+}
+
+.chat-left {
+  align-items: flex-start;
+}
+
+.chat-left .chat {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.chat {
+  padding: 20px;
+  border-radius: 15px;
+  margin: 1px;
+}
+
+div .x {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px
+}

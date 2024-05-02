@@ -42,6 +42,7 @@ main {
 
 .right.text1 { 
     margin-top: 15px;
+    position: relative;
 }
 
 .right.text2 {
@@ -88,3 +89,19 @@ main {
 .left.text2 {
     margin-bottom: 15px;
 }
+
+.test {
+    bottom: 30px;
+    right: -23px;
+    position: absolute;
+    border: 0px solid;
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-color: transparent;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: -21px 9px 0px 8px rgb(21, 255, 0);
+    rotate: -60deg;
+    scale: 0.4;
+    }

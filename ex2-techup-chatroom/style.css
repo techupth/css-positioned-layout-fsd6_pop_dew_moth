@@ -43,7 +43,7 @@ main {
 }
 
 .chat-right .fail {
-    background-color: silver
+  background-color: silver;
 }
 
 .chat-left {
@@ -61,10 +61,28 @@ main {
 }
 
 div .x {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 5px solid rgba(0, 0, 0, 0.3);
-    color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 120px
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid rgba(255, 255, 255, 0.445);
+  color: white;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+}
+
+div .test {
+  top: 25px;
+  right: -3px;
+  position: absolute;
+  border: 0px solid;
+  display: block;
+  width: 70px;
+  height: 50px;
+  background-color: transparent;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: -21px 9px 0px 8px green;
+  rotate: -60deg;
+  scale: 0.4;
 }

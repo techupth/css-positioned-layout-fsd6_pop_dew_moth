@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/bf7220ad33.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap"
+      rel="stylesheet"
+    />
+    <title>Positioned Layout Exercise 2 TechUp Chatroom</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <script src="https://kit.fontawesome.com/bf7220ad33.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
-  <title>Positioned Layout Exercise 2 TechUp Chatroom</title>
-</head>
-
-<body>
-  <!-- Start coding here -->
-</body>
-
+  <body>
+    <header class="header">
+      <h1 class="logo">TechUp Chatroom</h1>
+    </header>
+    <section class="main-chat">
+      <div class="chat-right">
+        <p class="chat-right-send top">สวัสดีจ้า</p>
+        <p class="chat-right-fail">Coding สนุกจังเลย</p>
+        <p class="chat-right-send">😍😁😘</p>
+        <div class="ad"></div>
+        <div class="ab">x</div>
+      </div>
+      <div class="chat-left">
+        <p class="chat-left-send">🤣🤣</p>
+        <p class="chat-left-send">😭😭</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="input-chat">
+        <div class="emoticon">
+          <p>😭</p>
+          <p>😘</p>
+          <p>🤣</p>
+          <p>😁</p>
+        </div>
+        <input
+          type="text"
+          placeholder="Message here"
+          name="text"
+          class="input-text"
+        />
+        <button class="button-send">📩</button>
+      </div>
+    </footer>
+  </body>
 </html>
